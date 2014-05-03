@@ -11,10 +11,8 @@ function Rude_OnUpdate(self, elapsed)
 	TimeSinceLastUpdate = TimeSinceLastUpdate + elapsed; 	
 
 	if (TimeSinceLastUpdate > updateInterval) then
-		print("being rude"); 
+		--print("being rude"); 
 	
-		end
-
 		TimeSinceLastUpdate = 0;
 	end
 end

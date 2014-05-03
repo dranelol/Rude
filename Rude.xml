@@ -5,27 +5,11 @@
 
 	<Script File="Rude.lua"/>
 
-	<Frame name="MainFrame" enableMouse="true" movable="true">
+	<Frame name="MainFrame">
  		<Scripts>
-		    <OnDragStart function = "Rude_OnDragStart"/>
-		    <OnDragStop function = "Rude_OnDragStop"/>
  			<OnLoad function = "Rude_OnLoad"/>
 			<OnUpdate function="Rude_OnUpdate" />
 			<OnEvent function="Rude_OnEvent"/>
 		</Scripts>
-
-		<Layers>
-			<Layer level="ARTWORK">
-				<Texture setAllPoints="true">
-					<Color r="1.0" g="1.0" b="1.0" a="0.3" />
-				</Texture>
-			</Layer>
-		</Layers>
-
-		<Size x="128" y="64" />
-
-		<Anchors>
-			<Anchor point="CENTER" relativeTo="UIParent"/>
-		</Anchors>
 	</Frame>
 </Ui>

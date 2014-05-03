@@ -1,4 +1,3 @@
-vTrakr
+Rude
 ======
-
-A WoW vengeance tracker for all members of your raid
+Just being Rude

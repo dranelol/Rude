@@ -1,5 +1,5 @@
 ## Interface: 30300
-## Title: vTrakr
-## Notes: Track dat V
-vTrakr.xml
-vTrakr.lua
+## Title: Rude
+## Notes: So RUDE
+Rude.xml
+Rude.lua

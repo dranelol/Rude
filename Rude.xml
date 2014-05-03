@@ -3,15 +3,15 @@
                    xsi:schemaLocation="http://www.blizzard.com/wow/ui/ 
                    ..\..\FrameXML\UI.xsd">
 
-	<Script File="vTrakr.lua"/>
+	<Script File="Rude.lua"/>
 
 	<Frame name="MainFrame" enableMouse="true" movable="true">
  		<Scripts>
-		    <OnDragStart function = "vTrakr_OnDragStart"/>
-		    <OnDragStop function = "vTrakr_OnDragStop"/>
- 			<OnLoad function = "vTrakr_OnLoad"/>
-			<OnUpdate function="vTrakr_OnUpdate" />
-			<OnEvent function="vTrakr_OnEvent"/>
+		    <OnDragStart function = "Rude_OnDragStart"/>
+		    <OnDragStop function = "Rude_OnDragStop"/>
+ 			<OnLoad function = "Rude_OnLoad"/>
+			<OnUpdate function="Rude_OnUpdate" />
+			<OnEvent function="Rude_OnEvent"/>
 		</Scripts>
 
 		<Layers>
